@@ -42,9 +42,7 @@ public class TestForm {
         $(byText("Select City")).click();
         $(byText("Gurgaon")).click();
         $("#submit").click();
-
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-
         $(".table-responsive").shouldHave(text("Misha Slotin"),
                 text("hello@mars.com"),
                 text("Male"),

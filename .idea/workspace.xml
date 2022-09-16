@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a23523-b97b-4412-8ba6-49b79994ec4b" name="Changes" comment="">
+    <list default="true" id="f1a23523-b97b-4412-8ba6-49b79994ec4b" name="Changes" comment="Add checking of fill form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <recent name="C:\Users\mmslotin\IdeaProjects\qa_guru_15_3\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestForm.fillFormTest">
+  <component name="RunManager" selected="Gradle.TestForm">
     <configuration name="TestForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestForm.fillFormTest" />
         <item itemvalue="Gradle.TestForm" />
+        <item itemvalue="Gradle.TestForm.fillFormTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +136,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663326246575</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add checking of fill form">
+      <created>1663344438023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663344438023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +156,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add checking of fill form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add checking of fill form" />
   </component>
 </project>
