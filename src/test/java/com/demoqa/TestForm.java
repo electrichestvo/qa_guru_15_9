@@ -1,5 +1,7 @@
 package com.demoqa;
 import com.codeborne.selenide.Configuration;
+import helpers.Attach;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -15,7 +17,17 @@ public class TestForm {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
         Configuration.holdBrowserOpen = true;
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
     }
+
+    @AfterEach
+    void addAttachments() {
+        Attach.screenshotAs("Last screenshot");
+        Attach.pageSource(); //исходный код страницы
+        Attach.browserConsoleLogs(); //лог консоли
+        Attach.addVideo();
+    }
+
     @Test
     void fillFormTest() {
         open("/automation-practice-form");

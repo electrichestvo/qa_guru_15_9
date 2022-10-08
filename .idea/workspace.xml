@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a23523-b97b-4412-8ba6-49b79994ec4b" name="Changes" comment="Delete empty lines 3" />
+    <list default="true" id="f1a23523-b97b-4412-8ba6-49b79994ec4b" name="Changes" comment="Delete empty lines">
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TestForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestForm.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +54,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,13 +68,19 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mmslotin\IdeaProjects\qa_guru_15_3\src\test\resources" />
       <recent name="C:\Users\mmslotin\IdeaProjects\qa_guru_15_3\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="helpers" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.TestForm">
@@ -169,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663347230491</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Delete empty lines 4">
+      <created>1663347343152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663347343152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +206,7 @@
     <MESSAGE value="Add checking of fill form" />
     <MESSAGE value="Deleted empty lines" />
     <MESSAGE value="Delete empty lines 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete empty lines 3" />
+    <MESSAGE value="Delete empty lines 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete empty lines 4" />
   </component>
 </project>
